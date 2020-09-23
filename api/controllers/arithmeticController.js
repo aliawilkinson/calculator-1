@@ -11,6 +11,7 @@ exports.calculate = function(req, res) {
   });
 
   var operations = {
+    // adding a note
     'add':      function(parseFloat(a),parseFloat(b)) { return a + b },
     'subtract': function(parseFloat(a),parseFloat(b)) { return a - b },
     'multiply': function(parseFloat(a),parseFloat(b)) { return a * b },
